@@ -7,8 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #fff;
-    background-color: #000;
+    color: #333; /* Dark text for readability on lighter background */
+    background-color: #f4f4f4; /* Light background color */
 }
 
 /* Header Section */
@@ -124,28 +124,28 @@ body {
 
 /* Social Media Links Section */
 .social-media-links {
-    background-size: cover;
-    background-position: center;
-    padding: 40px 0;
+    background-color: #e0e0e0; /* Light background color */
+    padding: 80px 0; /* Increased height for the section */
     text-align: center;
 }
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.social-links-container {
+    display: inline-block; /* Ensures the icons are within a contained space */
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    border-radius: 30px; /* Rounded edges */
+    padding: 20px 40px;
 }
 
-.social-links a {
+.social-links-container a {
     font-size: 2rem;
-    color: #fff;
+    color: #333; /* Dark color for the icons */
     margin: 0 15px;
     text-decoration: none;
     transition: color 0.3s;
 }
 
-.social-links a:hover {
-    color: #ff6600;
+.social-links-container a:hover {
+    color: #ff6600; /* Orange hover color */
 }
 
 /* Footer Section */
@@ -170,5 +170,3 @@ body {
         transform: translateY(0);
     }
 }
-
-
