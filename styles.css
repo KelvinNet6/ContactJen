@@ -122,27 +122,26 @@ body {
     background-color: #cc5200;
 }
 
-/* Social Media Links Section */
+/* Social Media Links Section with Background Image */
 .social-media-links {
-    background-color: #e0e0e0; /* Light background color */
+    background-image: url('Harry-Rieck-Edelstahl-Kontakt-Header.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
     padding: 80px 0; /* Increased height for the section */
     text-align: center;
+    color: white; /* Ensure text is white for contrast */
 }
 
 .social-links-container {
     display: inline-block; /* Ensures the icons are within a contained space */
-    background-image: url('Harry-Rieck-Edelstahl-Kontakt-Header.jpg'); /* Add your background image here */
-    background-size: cover;
-    background-position: center;
+    background-color: rgba(255, 255, 255, 0.7); /* Light transparent background for the icons container */
     border-radius: 30px; /* Rounded edges */
     padding: 20px 40px;
-    opacity: 0.8; /* Optional: Adjust transparency of the container */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better separation */
 }
 
 .social-links-container a {
     font-size: 2rem;
-    color: #fff; /* Light color for icons to stand out against the background */
+    color: #333; /* Dark color for icons */
     margin: 0 15px;
     text-decoration: none;
     transition: color 0.3s;
@@ -174,4 +173,3 @@ body {
         transform: translateY(0);
     }
 }
-
