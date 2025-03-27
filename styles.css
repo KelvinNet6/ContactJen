@@ -127,7 +127,7 @@ body {
     background-image: url('Harry-Rieck-Edelstahl-Kontakt-Header.jpg'); /* Add your background image here */
     background-size: cover;
     background-position: center;
-    padding: 130px 0; /* Increased height for the section */
+    padding: 160px 0; /* Increased height for the section */
     text-align: center;
     color: white; /* Ensure text is white for contrast */
 }
