@@ -7,8 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #333; /* Dark text for readability on lighter background */
-    background-color: #f4f4f4; /* Light background color */
+    color: #333; /
+    background-color: #f4f4f4;
 }
 
 /* Header Section */
@@ -124,31 +124,31 @@ body {
 
 /* Social Media Links Section with Background Image */
 .social-media-links {
-    background-image: url('Harry-Rieck-Edelstahl-Kontakt-Header.jpg'); /* Add your background image here */
+    background-image: url('Harry-Rieck-Edelstahl-Kontakt-Header.jpg'); 
     background-size: cover;
     background-position: center;
-    padding: 160px 0; /* Increased height for the section */
+    padding: 160px 0; 
     text-align: center;
-    color: white; /* Ensure text is white for contrast */
+    color: white; 
 }
 
 .social-links-container {
-    display: inline-block; /* Ensures the icons are within a contained space */
-    background-color: rgba(255, 255, 255, 0.7); /* Light transparent background for the icons container */
-    border-radius: 30px; /* Rounded edges */
+    display: inline-block; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 30px; 
     padding: 20px 40px;
 }
 
 .social-links-container a {
     font-size: 2rem;
-    color: #333; /* Dark color for icons */
+    color: #333; 
     margin: 0 15px;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .social-links-container a:hover {
-    color: #ff6600; /* Orange hover color */
+    color: #ff6600; 
 }
 
 /* Footer Section */
